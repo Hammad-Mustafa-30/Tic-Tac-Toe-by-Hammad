@@ -4,7 +4,9 @@
 
 The game was created in Dev-C++. However, Dev-C++ does not include graphics.h library by default. So
 this game will not work until you install graphics.h library manually. You can search on YouTube 
-"How to install graphics.h library in Dev-C++" and watch any video to install this library
+"How to install graphics.h library in Dev-C++" and watch any video to install this library. 
+If you wanna see how this game looks like, you can check that out on my YouTube channel.
+https://youtu.be/CSkeH5_0DfU
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
