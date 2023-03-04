@@ -15,7 +15,7 @@ char arr[30]="AI - TicTacToe";
 int pointX[10];
 int pointY[10];
 char Board[10];
-char name[50];
+char name[20];
 char Ai[20] = "Computer";
 int cWins = 0, pWins = 0;
 
@@ -151,7 +151,7 @@ void setName(){
 	setcolor(WHITE);
 	settextstyle(BOLD_FONT, 0, 4);
 	outtextxy(XP*0.11, YP*0.4, "Enter your name:");
-	for (int i = 0; i < 50; i++){
+	for (int i = 0; i < 16; i++){
 		char c = getch();
 		if (c == 13) break;
 		char str[2];
@@ -553,7 +553,7 @@ int main(){
 				DrawWinLine(winC);
 				char win[20] = "";	setbkcolor(BLUE);
 				strcat(win, name); strcat(win, " Won");
-				settextstyle(BOLD_FONT,0,6);
+				settextstyle(BOLD_FONT,0,5);
 				setcolor(GREEN);
 				outtextxy(XP*0.6, YP*0.3, win);
 				OPGamePlay = false;
