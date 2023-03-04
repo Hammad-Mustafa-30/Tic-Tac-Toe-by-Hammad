@@ -1,4 +1,12 @@
 # Tic-Tac-Toe-by-Hammad
+
+///////////////////////////////////////////// MUST READ /////////////////////////////////////////////
+
+The game was created in Dev-C++. However, Dev-C++ does not include graphics.h library by default. So
+this game will not work until you install graphics.h library manually. You can search on YouTube 
+"How to install graphics.h library in Dev-C++" and watch any video to install this library
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
 AssalamuAlaikum everyone!
 
 I am excited to share my Tic Tac Toe Game that I recently created in C++ using the graphics.h library.
